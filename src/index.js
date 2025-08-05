@@ -1,4 +1,3 @@
-
 const herois = [
     { nome: "Arqueiro Verde", xp: 7500 },
     { nome: "Harpia", xp: 9800 },
@@ -29,5 +28,5 @@ for (let i = 0; i < herois.length; i++) {
         nivel = "Radiante";
     }
 
-    console.log("O Herói de nome ${nome} está no nível de ${nivel}");
+    console.log(`O Herói de nome ${nome} está no nível de ${nivel}`);
 }
